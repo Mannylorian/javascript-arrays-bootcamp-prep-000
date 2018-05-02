@@ -7,7 +7,7 @@ var chocolateBars=['snickers','hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(array){
   var citiesInThuringia=['Weimar','Jena','Erfurt']
-  citiesInThuringia.unshift('foo ,');
+  citiesInThuringia.unshift('foo');
 }
 addElementToBeginningOfArray('array');  
 
@@ -15,7 +15,7 @@ addElementToBeginningOfArray('array');
 
 function destructivelyAddElementToBeginningOfArray(array){
   var typesOfWurst=['Ahle Wurst','Thuringer','Naumberger',];
-  typesOfWurst=['foo ',...typesOfWurst];
+  citiesInThuringia.unshift('Weisswurst');
 }
 destructivelyAddElementToBeginningOfArray('array');
 
