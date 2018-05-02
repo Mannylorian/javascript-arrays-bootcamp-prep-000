@@ -1,7 +1,8 @@
 
 
-var chocolateBars=['snickers','hundred grand', 'kitkat', 'skittles'];
-
-function addElementToBeginningOfArray()
+var chocolateBars=['snickers','wunderbar', 'kitkat', 'skittles'];
+var candyString='foo';
+function addElementToBeginningOfArray(chocolateBars, candyString){
+  chocolatebars.unshift('KinderEgg')}
 
 
