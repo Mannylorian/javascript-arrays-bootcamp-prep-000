@@ -7,13 +7,15 @@ var chocolateBars=['snickers','hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(){
   var citiesInThuringia=['Weimar','Jena','Erfurt']
-  ['Gotha',...citiesInThuringia];
+  citiesInThuringia.unshift('Gotha');
 }
-  
+addElementToBeginningOfArray();  
 
 
 
-function destructivelyAddElementToBeginningOfArray
+function destructivelyAddElementToBeginningOfArray(){
+  var typesOfWurst=['']
+}
 
 
 
