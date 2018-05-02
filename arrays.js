@@ -15,7 +15,7 @@ addElementToBeginningOfArray();
 
 function destructivelyAddElementToBeginningOfArray(){
   var typesOfWurst=['Ahle Wurst','Thuringer','Naumberger',];
-  [...typesOfWurst,'foo'];
+  typesOfWurst=[...typesOfWurst,'Weisswurst'];
 }
 destructivelyAddElementToBeginningOfArray();
 
