@@ -5,18 +5,18 @@ var tomatoSauceIngredients=['tomato','garlic','olive oil','basil','oregano' ];
 
 var chocolateBars=['snickers','hundred grand', 'kitkat', 'skittles'];
 
-function addElementToBeginningOfArray(){
+function addElementToBeginningOfArray(array){
   var citiesInThuringia=['Weimar','Jena','Erfurt']
   citiesInThuringia.unshift('foo ,');
 }
-addElementToBeginningOfArray();  
+addElementToBeginningOfArray('array');  
 
 
 
-function destructivelyAddElementToBeginningOfArray(){
+function destructivelyAddElementToBeginningOfArray(array){
   var typesOfWurst=['Ahle Wurst','Thuringer','Naumberger',];
   typesOfWurst=['foo ',...typesOfWurst];
 }
-destructivelyAddElementToBeginningOfArray();
+destructivelyAddElementToBeginningOfArray('array');
 
 
