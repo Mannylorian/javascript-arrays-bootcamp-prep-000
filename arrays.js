@@ -7,7 +7,7 @@ var chocolateBars=['snickers','hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(){
   var citiesInThuringia=['Weimar','Jena','Erfurt']
-  citiesInThuringia.unshift('foo');
+  citiesInThuringia.unshift('Gotha');
 }
 addElementToBeginningOfArray();  
 
