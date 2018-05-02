@@ -6,8 +6,8 @@ var tomatoSauceIngredients=['tomato','garlic','olive oil','basil','oregano' ];
 var chocolateBars=['snickers','hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(array){
-  var citiesInThuringia=['Weimar','Jena','Erfurt']
-  citiesInThuringia.unshift('foo');
+  var citiesInThuringia=['Weimar','Jena','Erfurt'];
+  ['Gera',...citiesInThuringia];
 }
 addElementToBeginningOfArray('array');  
 
